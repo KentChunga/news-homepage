@@ -5,7 +5,7 @@ import Close from "../../assets/images/icon-menu-close.svg";
 const Hamburger = ({ toggleMenu, handleMenu }) => {
   return (
     <div
-      className="relative z-50 flex cursor-pointer transition-all duration-300 ease-in-out lg:hidden"
+      className={`z-50 flex cursor-pointer transition-all duration-300 ease-in-out lg:relative lg:hidden ${toggleMenu ? "fixed right-3" : ""}`}
       onClick={handleMenu}
     >
       {!toggleMenu ? (
