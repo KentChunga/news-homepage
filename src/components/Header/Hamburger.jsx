@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import Open from "../../assets/images/icon-menu.svg";
-import Close from "../../assets/images/icon-menu-close.svg";
+import Open from "/images/icon-menu.svg";
+import Close from "/images/icon-menu-close.svg";
 
 const Hamburger = ({ toggleMenu, handleMenu }) => {
   return (

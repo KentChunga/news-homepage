@@ -5,19 +5,19 @@ const Trending = () => {
     {
       title: "Reviving Retro PCs",
       intro: "What happens when old PCs are given modern upgrades?",
-      img: "/src/assets/images/image-retro-pcs.jpg",
+      img: "/images/image-retro-pcs.jpg",
     },
 
     {
       title: "Top 10 Laptops of 2022",
       intro: "Our best picks for various needs and budgets.",
-      img: "/src/assets/images/image-top-laptops.jpg",
+      img: "/images/image-top-laptops.jpg",
     },
 
     {
       title: "The Growth of Gaming",
       intro: "How the pandemic has sparked fresh opportunities",
-      img: "/src/assets/images/image-gaming-growth.jpg",
+      img: "/images/image-gaming-growth.jpg",
     },
   ];
   return (

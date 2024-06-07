@@ -1,4 +1,4 @@
-import NLogo from "../../assets/images/logo.svg";
+import NLogo from "/images/logo.svg";
 
 const Logo = () => {
   return (
