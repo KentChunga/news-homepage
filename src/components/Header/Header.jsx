@@ -12,11 +12,11 @@ const Header = () => {
   };
 
   return (
-    <header className="relative mx-auto mb-4 mt-8 flex h-11 w-[90%] items-center justify-between md:w-[69.5rem] lg:w-[70%]">
+    <header className="relative mx-auto mb-4 mt-8 flex h-11 w-[90%] min-w-[375px] items-center justify-between xl:w-[80%]">
       <Logo />
       <Nav showMenu={isNavOpen} handleMenu={handleMenu} />
       {/* <Hamburger handleMenu={handleMenu} toggleMenu={isNavOpen} /> */}
-      <Overlay show={isNavOpen} />
+      <Overlay show={isNavOpen} toggleMenu={handleMenu} />
     </header>
   );
 };

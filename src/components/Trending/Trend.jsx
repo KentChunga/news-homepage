@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 const Trend = ({ thumbnail, title, description, position }) => {
   return (
-    <div className="flex gap-6">
+    <div className="flex gap-5">
       <div
-        className={`relative h-[7.5625rem] w-32 bg-cover bg-center`}
+        className={`relative h-[7.5625rem] w-36 bg-cover bg-center`}
         style={{ backgroundImage: `url(${thumbnail})` }}
       ></div>
 
@@ -14,7 +14,7 @@ const Trend = ({ thumbnail, title, description, position }) => {
         </span>
         <a
           href="#"
-          className="mb-3 inline-block font-semibold text-veryDarkBlue transition-all duration-300 ease-in-out hover:text-softRed"
+          className="text-md mb-3 inline-block font-bold text-veryDarkBlue transition-all duration-300 ease-in-out hover:text-softRed"
         >
           {title}
         </a>

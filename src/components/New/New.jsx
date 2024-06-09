@@ -18,7 +18,7 @@ const New = () => {
     },
   ];
   return (
-    <aside className="relative mt-10 w-full bg-veryDarkBlue px-6 pb-2 lg:mt-0">
+    <aside className="relative mt-10 w-full bg-veryDarkBlue px-6 pb-2 lg:mt-0 lg:w-1/3">
       <h2 className="mb-4 mt-8 text-4xl font-semibold text-softOrange">New</h2>
 
       {articles.map((article, index) => (
