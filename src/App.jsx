@@ -1,4 +1,4 @@
-import Attribution from "../Attribution";
+import Attribution from "./components/Attribution";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home";
 
